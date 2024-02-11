@@ -1,0 +1,430 @@
+/*! Обнулення */
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+nav,footer,header,aside{display: block;}
+
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+/* TODO: Шапка  */
+
+body{
+	width: 1440px;
+	height: 2371px;
+	margin: 0 auto;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.but, .butt, .butto{
+	width: 212.39px;
+	height: 60px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 700;
+}
+.header{
+	padding: 0px 191px;
+	width: 1440px;
+	height: 145px;	
+	background: rgba(255, 113, 67, 0.27);
+	display: flex;
+}
+.logo{
+	position: relative;
+	top: 48px;
+	cursor: pointer;
+}
+.numero{
+	position: absolute;
+	left: 515px;
+	top: 58px;
+	right: 551px;
+	bottom: 67px;
+	width: 330.16px;
+	height: 20px;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: -0.468947px;
+	line-height: 20px;	
+	margin: 0px auto;
+}
+.menu{
+	display: flex;
+	gap: 50px;
+}
+.menu li{
+	display: inline;
+	color: rgb(121, 118, 111);
+}
+
+.but{
+	background: #FF7143;
+	position: relative;
+	left: 800px;
+	top: 0px;
+	right: 159px;
+	bottom: 47px;
+	color: white;
+	border: 1px solid #FF7143;
+}
+
+/* TODO: Перший блок  */
+
+.hero{
+	margin: 165px 179px 0px 191px;
+	width: 1069.67px;
+	height: 523px;
+	display: flex;
+}
+.hero__text{
+	width: 467.24px;
+	height: 461px;	
+	margin: auto 0px;
+}
+
+.pm{
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 77px;
+	letter-spacing: -2.50105px;
+}
+.po{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: -0.625263px;
+	color: #696871;
+}
+.butt{
+	background: #5454D4;
+	color: white;
+	border: 1px solid #5454D4;
+}
+.butto{
+	background: white;
+	border: 1px solid #5454D4;
+	color: #5454D4;
+}
+.buttons{
+	display: flex;
+	gap: 15px;
+}
+.hero3d{
+	width: 493.67px;
+	height: 523px;
+	margin: auto ;
+}
+
+/* TODO: Другий блок  */
+
+.block__2{
+	width: 1076px;
+	height: 473px;
+	margin: 95px 179px 1090px 185px;
+	display: flex;
+}
+.block__hero{
+
+}
+
+.block__text{
+	min-width: 556px;
+	height: 155px;
+	margin: auto 150px;
+}
+.textm{
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 57px;
+	letter-spacing: -1.56316px;
+}
+.block__form{
+	display: flex;
+	gap: 15px;
+	padding: 25px 0px;
+}
+.buttonn{
+	width: 212.39px;
+	height: 60px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 700;
+	background-color: #5454D4;
+	color: white;
+}
+.email{
+	width: 302px;
+	height: 60px;
+	border: 1px solid #7087FF;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 22px;
+	letter-spacing: -0.531474px;
+	padding: 0px 15px;
+}
+
+/* TODO: Третій блок*/
+
+.block__3{
+	width: 1070px;
+	height: 679px;
+	margin: -900px 185px 275px 185px;
+}
+.block__texttwo{
+	width: 1070px;
+	height: 140px;
+}
+.textthree{
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 70px;
+	letter-spacing: -1.87579px;
+	width: 504px;
+	height: 128px;
+}
+.general{
+	padding: 100px 0px;
+	display: flex;
+	gap: 35px;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 50px;
+}
+.block__uno, .block__duo, .block__three{
+	width: 330px;
+	height: 441px;
+	border-radius: 10px;
+}
+.block__uno{
+	background: #F8F8F8;
+	text-align: center;
+}
+.block__duo{
+	background: #FF7143;
+	border: 2px solid #45B876;
+	box-shadow: 0px 35px 35px rgba(255, 112, 59, 0.317827);
+	text-align: center;
+	color: #F8F8F8;
+}
+.block__three{
+	background: #F8F8F8;
+	text-align: center;
+}
+.main__text{
+	line-height: 110px;
+	color: #696871;
+	font-weight: 400;
+	font-size: 18px;
+}
+.main__textm{
+	font-size: 60px;
+	line-height: 15px;
+	
+}
+.menu__two{
+	line-height: 40px;
+	padding: 50px 0px;
+	color: #696871;
+	font-weight: 400;
+	font-size: 18px;
+}
+.button__uno, .button__duo, .button__three{
+	width: 285px;
+	height: 60px;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 22px;
+	letter-spacing: -0.531474px;
+	cursor: pointer;
+}
+.button__uno{
+	background: #FFFFFF;
+	color: #5454D4;
+}
+.button__duo{
+	background: #9F3919;
+	color: #FFFFFF;
+}
+.button__three{
+	background: #FFFFFF;
+	color: #5454D4;
+}
+.main__textbut{
+	line-height: 110px;
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: 400;
+	font-size: 18px;
+}
+.main__textbutt{
+	font-size: 60px;
+	line-height: 15px;
+}
+.menu__twobut{
+	line-height: 40px;
+	padding: 50px 0px;
+	color: rgba(255, 255, 255, 0.7);
+	
+}
+
+/* TODO: Підвал*/
+
+.footer{
+	width: 1440px;
+	height: 145px;	
+	background: rgba(255, 113, 67, 0.27);
+}
+.footer__conteiner{
+	padding: 0px 191px;
+	display: flex;
+}
+.logotype{
+	position: relative;
+	top: 53px;
+	width: 201px;
+	height: 39px;
+	cursor: pointer;
+}
+.menu__three{
+	display: flex;
+	gap: 30px;
+	margin: 65px 185px 58px 524px;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.468947px;
+	cursor: pointer;
+	color: rgb(121, 118, 111);
+}
+
+/* 	TODO: ПСЕВДОКЛАСИ   */
+
+
+.menu li:hover{
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	gap: -3px;
+	margin: 0px -5px 0px -5px;
+}
+
+
+.but:hover{
+	background: white;
+	color: #FF7143;
+}
+.but:hover:active{
+	color: white;
+	background: rgb(192, 62, 22, 100);
+	box-shadow: 0px 0px 10px black;
+	border-color: #9F3919;
+}
+
+
+.butt:hover{
+	border-color: #5454D4;
+	background: white;
+	color: #5454D4;
+}
+.butt:hover:active{
+	background: rgba(5, 19, 148, 100);
+	color: rgb(0, 241, 181);
+	box-shadow: 0px 0px 10px black;
+	border-color: rgba(5, 19, 148, 100);
+}
+
+.butto:hover{
+	color: white;
+	background: #5454D4;
+}
+.butto:hover:active{
+	background: rgba(5, 19, 148, 100);
+	color: rgb(0, 241, 181);
+	box-shadow: 0px 0px 10px black;
+	border-color: rgba(5, 19, 148, 100);
+}
+
+.email:focus{
+	box-shadow: 0px 0px 20px rgb(11, 34, 119);
+}
+.buttonn:hover{
+	color: #5454D4;
+	background-color: white;
+	border: 1px solid #5454D4;
+}
+.buttonn:hover:active{
+	background: rgba(5, 19, 148, 100);
+	color: rgb(0, 241, 181);
+	box-shadow: 0px 0px 10px black;
+	border-color: rgba(5, 19, 148, 100);
+}
+
+
+
+.block__uno:hover{
+	box-shadow: 0px 0px 10px black;
+	border: 3px solid #0e4aa3;
+}
+.button__uno:hover{
+	color: white;
+	background-color: #5454D4;
+}
+.button__uno:hover:active{
+	background: rgba(5, 19, 148, 100);
+	color: rgb(0, 241, 181);
+	box-shadow: 0px 0px 10px black;
+	border-color: rgba(5, 19, 148, 100);
+}
+
+.block__duo:hover{
+	box-shadow: 0px 0px 10px black;
+}
+.button__duo:hover{
+	color: #FF7143;
+	background-color: white;
+}
+.button__duo:hover:active{
+	color: white;
+	background-color: rgb(192, 62, 22);
+}
+
+.block__three:hover{
+	box-shadow: 0px 0px 10px black;
+	border: 3px solid #0e4aa3;
+}
+.button__three:hover{
+	color: white;
+	background-color: #5454D4;
+}
+.button__three:hover:active{
+	background: rgba(5, 19, 148, 100);
+	color: rgb(0, 241, 181);
+	box-shadow: 0px 0px 10px black;
+	border-color: rgba(5, 19, 148, 100);
+}
+
+
+.menu__three li:hover{
+	color: black;
+	font-size: 20px;
+}

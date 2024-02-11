@@ -1,0 +1,16 @@
+------FIRST-PROJECT-------
+
+Simply one page website which created as task of lesson
+
+This page included: Header, First block, Second block, Third block with card plan payment and Footer
+
+This website not counted for adaptive layout only under fixed size
+
+l decided made this as practice for my first experience and l understand that project had many mistakes
+
+-------25/10/2022---------
+
+
+
+
+
